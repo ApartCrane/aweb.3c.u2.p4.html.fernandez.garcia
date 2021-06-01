@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica4</title>
+    <style>
+        body{
+            background-color: #E0EFF1;
+        }
+        header {
+            text-align: center;
+        }
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: #7DB4B5;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #000;
+        }
+        .menu ul li:hover{
+            background-color: #FFFFFF;
+            font-weight: bold;
+        }
+        #content{
+            width: 80%;
+            float: left;
+        }
+        #content article{
+            margin: 10px;
+        }
+
+        article h1{
+            color: #680148;
+            border-bottom: #000 solid 1px; 
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Práctica HTML 5 (WappiTacos)</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Sabores</a></li>
+                <li>
+                    <a href="#">Chicharron</a>
+                </li>
+                <li>
+                    <a href="#">Mole</a>
+                </li>
+                <li>
+                    <a href="#">Tinga</a>
+                </li>
+            </ul>
+        </nav>
+        <section id="content"">
+            <article>
+                <h1 >Artículo 1</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam non praesentium hic vel tempore
+                    odit quo repellendus doloribus dolores. Necessitatibus quia facilis sunt numquam optio quasi rem,
+                    voluptatum accusantium temporibus.
+                </p>
+            </article>
+            <article>
+                <h1>Artículo 2</h1>               
+            </article>
+        </section>
+
+        <footer>Pie de pagina</footer>
+    </main>
+</body>
+
+</html>
